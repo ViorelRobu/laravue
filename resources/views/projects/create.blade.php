@@ -14,6 +14,7 @@
                 @endforeach
             </ol>
             <hr>
+            <example></example>
             {{-- form submission is successfull --}}
             <form @submit.prevent="form.closeMessage" v-if="form.success">
                 <div class="notification is-primary">
@@ -49,8 +50,7 @@
             </form>
 
         </section>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.15.3/axios.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+        <script src="/js/vendor.js"></script>
         <script src="/js/app.js"></script>
     </body>
 </html>
